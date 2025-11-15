@@ -1,0 +1,23 @@
+#include <iostream>//Your mood - your emoji
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Describe your mood (1-10): ";
+    cin >> a;
+    if(a > 0 && a <= 10){
+     if(a < 5){
+        cout << "Your emoji is :(";
+    }
+    else if(a == 5){
+        cout << "Your emoji is :|";
+    }
+     else if(a > 5){
+        cout << "Your emoji is :)";
+    }
+}
+    else{
+        cout << "Your mood is wrong!";
+    }
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include <iostream>//Istenilen ilde istifadecinin yasini hesablayan proqram
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Tevellud: ";
+    cin >> a;
+    cout << "Istenilen il: ";
+    cin >> b;
+    cout << endl;
+    cout << b << " ilinde sizin yasiniz: " << b - a;
+    return 0;
+}

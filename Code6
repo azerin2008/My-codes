@@ -1,0 +1,25 @@
+#include <iostream>//Boy kutle indeksi
+#include <cmath>
+using namespace std;
+
+int main() {
+   float boy;
+   float kutle;
+   float bki;
+   cout << "Boyunuz (m): ";
+   cin >> boy;
+   cout << "Kutleniz (kq): ";
+   cin >> kutle;
+   bki = kutle / (pow(boy, 2));
+   cout << "BKI = " << bki << endl;
+   if(bki > 0 & bki <= 18.4){
+       cout << "Az cekili";
+   }
+   else if(bki >= 18.5 & bki < 25){
+       cout << "Normal cekili";
+   }
+   else if(bki >= 25){
+       cout << "Artiq cekili";
+   }
+    return 0;
+}

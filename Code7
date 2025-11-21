@@ -1,0 +1,33 @@
+#include <iostream>//Generations
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Enter your birth year: ";
+    cin >> a;
+    if(a >= 1901 & a <= 1927){
+        cout << "You are Greatest Generation.";
+    }
+    else if(a >= 1928 & a <= 1945){
+        cout << "You are Silent Generation.";
+    }
+    else if(a >= 1946 & a <= 1964){
+        cout << "You are Baby Boomers Generation.";
+    }
+    else if(a >= 1965 & a <= 1980){
+        cout << "You are  Generation X.";
+    }
+    else if(a >= 1981 & a <= 1996){
+        cout << "You are  Generation Y.";
+    }
+    else if(a >= 1997 & a <= 2012){
+        cout << "You are  Generation Z.";
+    }
+    else if(a >= 2013 & a <= 2024){
+        cout << "You are  Generation Alfa.";
+    }
+    else if(a >= 2025 & a <= 2039){
+        cout << "You are  Generation Beta.";
+    }
+    return 0;
+}
